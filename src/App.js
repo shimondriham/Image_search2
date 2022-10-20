@@ -1,9 +1,11 @@
 import './App.css';
+import AppSearch from './componnent/appSearch';
+
 
 function App() {
   return (
-    <div className="container">  
-   <h2>start</h2>
+    <div>  
+    <AppSearch/>
     </div>
   );
 }
