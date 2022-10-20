@@ -27,14 +27,14 @@ function Gallery(props){
   }
 
   return(
-    <div className='container'>
+    <div className='container text-center'>
       <h1>Gallery page</h1>
-      <div class="border my-3 p-2">
-        <div className="col-md-6 d-flex">
-          <input ref={searchRef} className='form-control'/>
-          <button onClick={onSearchClick} className='btn btn-dark'>Search</button>
-        </div>
+      <div class="border my-3 p-2 col-4 mx-auto">
+      <div className="col-md-11 d-flex">
+        <input ref={searchRef} className='form-control'/>
+        <button onClick={onSearchClick} className='btn btn-dark'>Search</button>
       </div>
+    </div>
       <div className="row">
         {ar.map(item => {
           return(
